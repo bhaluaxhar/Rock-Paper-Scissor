@@ -145,7 +145,7 @@ def Winner():
 # Background Image
 
 
-f = PhotoImage(file = "gallery/try.png")
+f = PhotoImage(file = "try.png")
 background_label = Label(root, image=f)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
@@ -155,13 +155,13 @@ background_label.place(x=0, y=0, relwidth=1, relheight=1)
 # background_label.place(x=0,y=0, relwidth=1, relheight=1)
 
 # Images of button
-rockImg = PhotoImage(file = "gallery/rock.PNG")
-paperImg = PhotoImage(file = "gallery/paper.PNG")
-scissorImg = PhotoImage(file = "gallery/scissor.PNG")
-startImg = PhotoImage(file = "gallery/Play.PNG")
-photo =  PhotoImage(file = "gallery/win.png")
-photo2 =  PhotoImage(file = "gallery/lose.png")
-photo3 =  PhotoImage(file = "gallery/DRAW.png")
+rockImg = PhotoImage(file = "rock.PNG")
+paperImg = PhotoImage(file = "paper.PNG")
+scissorImg = PhotoImage(file = "scissor.PNG")
+startImg = PhotoImage(file = "Play.PNG")
+photo =  PhotoImage(file = "win.png")
+photo2 =  PhotoImage(file = "lose.png")
+photo3 =  PhotoImage(file = "DRAW.png")
 
 rock_btn = Button(root, text="Rock", font="bold", width=76, height=28,relief=RIDGE,borderwidth=0,image = rockImg, command=rock)
 rock_btn["stat"] = "disabled"
